@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Final</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Exercício Final</h1>
+    </header>
+    <main>
+        <div id="inputs">
+            <p>Incluir Numero:
+                <input class = "input" type="number" name = "num" id="txtn">
+                <input class = "button" type="button" value="Incluir Número" onclick="incluirNumero()">
+            </p>
+            <p id="warning"> 
+                
+            
+         </div>
+         <div>
+             <select name="numIncluidos" id="selNumIncl" size="12">
+                
+             </select>
+             <input class = "button" type="button" value="Calcular" onclick="calcular()">
+         </div>
+         <div class = "resultados" id="resultados">
+            <p id= "qdeDeNumeros"></p>
+            <p id= "somaDosNumeros"></p>
+            <p id= "mediaDosNumeros"></p>
+            <p id= "numeroMaior"></p>
+            <p id= "numeroMenor"></p>
+         </div>
+    </main>
+    <footer>
+        <p>&copy; Daniel de Medeiros Lima</p>
+    </footer>
+    <script
+        type="text/javascript"
+        src="script.js">
+</script>
+</body>
+</html>

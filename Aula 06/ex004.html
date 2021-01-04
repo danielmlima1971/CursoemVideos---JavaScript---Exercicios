@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var nome = window.prompt("Qual seu nome? ")
+        var n1 = Number(window.prompt("Escreva um número qualquer"))
+        document.write(`Olá ${nome}. Seu nome tem ${nome.length} letras <br/>`)
+        document.write(`Seu nome em Maiúsculas é ${nome.toUpperCase()} <br/>`)
+        document.write(`E seu nome em minúsculas é ${nome.toLowerCase()}<br/>`)
+        document.write(`O número que vc escreveu com 2 casas deicmais é ${n1.toFixed(2)}<br/>`)
+        document.write(`O número que vc escreveu com 2 casas deicmais e virgula é ${n1.toFixed(2).replace(`.`,`,`)}<br/>`)
+        document.write(n1.toLocaleString(`pt-br`, {style: `currency`, currency: `BRL`}))
+    </script>
+</body>
+</html>
